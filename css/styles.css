@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", "Raleway" sans-serif;
+  background-color: #e5e5e5;
+  color: var(--dark-grey-header);
+}
+:root {
+  --brand-color: #2196f3;
+  --dark-grey-header: #212121;
+  --light-grey: #757575;
+  --white-color: #ffffff;
+  --black-colour: #000000;
+  --button-background: #f5f4fa;
+}
+.header-primary {
+  color: var(--black-colour);
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  text-decoration: none;
+}
+.highlight {
+  color: var(--brand-color);
+}
+.header-secondary {
+  color: var(--dark-grey-header);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--brand-color);
+}
+
+.contacts-header {
+  color: var(--light-grey);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main-header {
+  color: var(--white-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+.button-primary {
+  background-color: var(--brand-color);
+  border-color: var(--black-colour);
+  color: var(--white-color);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+}
+.button-primary:hover {
+  background-color: var(--button-background);
+  color: var(--black-colour);
+}
+.list-primary {
+  color: var(--dark-grey-header);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+}
+.text-primary {
+  color: var(--light-grey);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+}
+.header-third {
+  color: var(--dark-grey-header);
+  font-size: 36px;
+  line-height: 1.67;
+  font-weight: 700;
+}
+.personal-data {
+  color: var(--dark-grey-header);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+}
+.job-position {
+  color: var(--light-grey);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+}
+.company-location {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+}
+.contact-links {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.button-secondary {
+  background-color: var(--button-background);
+  border: none;
+  color: var(--dark-grey-header);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+}
+.button-secondary:hover {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+}
+.portfolio-header {
+  color: var(--dark-grey-header);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+.portfolio-text {
+  color: var(--light-grey);
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 400;
+}
