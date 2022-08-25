@@ -21,11 +21,6 @@ body {
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 24 1240 25 215;
 }
 .highlight {
   color: var(--brand-color);
@@ -55,9 +50,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
-  height: 120;
-  width: 696;
-  padding: 200 452 280 452;
+  margin: 200px 52px 280px 52px;
 }
 .button-primary {
   background-color: var(--brand-color);
@@ -70,11 +63,26 @@ body {
   cursor: pointer;
   width: 200px;
   height: 50px;
-  margin-top: 30px;
+}
+.main-header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .button-primary:hover {
   background-color: var(--button-background);
   color: var(--black-colour);
+}
+.lorem {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.lorem-item {
+  width: 270px;
+  flex-basis: calc((100% - 30px) / 5);
 }
 .list-primary {
   color: var(--dark-grey-header);
@@ -93,6 +101,28 @@ body {
   font-size: 36px;
   line-height: 1.67;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.our-job {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.our-job-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.our-team {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.our-team-item {
+  flex-basis: calc((100% - 90px) / 4);
+  width: 270px;
 }
 .personal-data {
   color: var(--dark-grey-header);
@@ -147,7 +177,7 @@ body {
   font-weight: 400;
 }
 .container {
-  width: 1200;
+  max-width: 1200px;
 }
 .header {
   display: flex;
@@ -179,4 +209,17 @@ body {
 }
 .main-header-section {
   background-color: #2f303a;
+}
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
