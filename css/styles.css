@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "Raleway" sans-serif;
   background-color: #e5e5e5;
@@ -17,6 +21,11 @@ body {
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 24 1240 25 215;
 }
 .highlight {
   color: var(--brand-color);
@@ -46,6 +55,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
+  height: 120;
+  width: 696;
+  padding: 200 452 280 452;
 }
 .button-primary {
   background-color: var(--brand-color);
@@ -56,6 +68,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
 }
 .button-primary:hover {
   background-color: var(--button-background);
@@ -130,4 +145,38 @@ body {
   font-size: 16px;
   line-height: 1.88;
   font-weight: 400;
+}
+.container {
+  width: 1200;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+.section {
+  padding: 94px;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 46px;
+}
+.nav-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-header-section {
+  background-color: #2f303a;
 }
