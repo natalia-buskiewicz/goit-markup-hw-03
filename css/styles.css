@@ -6,6 +6,8 @@ body {
   font-family: "Roboto", "Raleway" sans-serif;
   background-color: #e5e5e5;
   color: var(--dark-grey-header);
+  margin: 0 auto;
+  padding: 0px;
 }
 :root {
   --brand-color: #2196f3;
@@ -38,14 +40,6 @@ body {
 
 .link:hover {
   color: var(--brand-color);
-}
-
-.contacts-header {
-  color: var(--light-grey);
-  font-size: 14px;
-  line-height: 1.14;
-  font-weight: 500;
-  text-decoration: none;
 }
 
 .main-header {
@@ -222,19 +216,26 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 50px;
+}
+.contacts-header {
+  color: var(--light-grey);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 50px;
 }
 .nav-list {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   gap: 46px;
 }
 .nav-list-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer {
