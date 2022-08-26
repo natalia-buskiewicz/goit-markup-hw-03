@@ -52,6 +52,9 @@ body {
   font-weight: 900;
   margin: 200px 52px 280px 52px;
 }
+.main-header-section {
+  background-color: #2f303a;
+}
 .button-primary {
   background-color: var(--brand-color);
   border-color: var(--black-colour);
@@ -104,7 +107,9 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.our-job-section {
+  margin-top: 94px;
+}
 .our-job {
   display: flex;
   flex-wrap: wrap;
@@ -114,6 +119,9 @@ body {
 .our-job-item {
   flex-basis: calc((100% - 60px) / 3);
 }
+.picture {
+  display: block;
+}
 .our-team {
   display: flex;
   flex-wrap: wrap;
@@ -122,7 +130,6 @@ body {
 }
 .our-team-item {
   flex-basis: calc((100% - 90px) / 4);
-  width: 270px;
 }
 .personal-data {
   color: var(--dark-grey-header);
@@ -176,6 +183,23 @@ body {
   line-height: 1.88;
   font-weight: 400;
 }
+.portfolio-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-net {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.portfolio-net-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
 .container {
   max-width: 1200px;
 }
@@ -207,9 +231,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-.main-header-section {
-  background-color: #2f303a;
-}
+
 .footer {
   background-color: #2f303a;
   display: flex;
