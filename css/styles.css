@@ -1,14 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", "Raleway" sans-serif;
-  background-color: #e5e5e5;
-  color: var(--dark-grey-header);
-  margin: 0 auto;
-  padding: 0px;
-}
 :root {
   --brand-color: #2196f3;
   --dark-grey-header: #212121;
@@ -17,8 +6,34 @@ body {
   --black-colour: #000000;
   --button-background: #f5f4fa;
 }
+body {
+  font-family: "Roboto", "Raleway" sans-serif;
+  background-color: #e5e5e5;
+  color: var(--dark-grey-header);
+  margin: 0 auto;
+  padding: 0px;
+}
+.wrapper {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+}
+.section {
+  padding: 94px;
+}
+img {
+  display: block;
+}
+
 .header {
   border-bottom: 1px #ececec solid;
+  padding-right: 227px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-primary {
   color: var(--black-colour);
@@ -47,9 +62,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
-  margin: 200px 52px 280px 52px;
+  margin-bottom: 30px;
 }
-.main-header-section {
+.section-dark {
   background-color: #2f303a;
 }
 .button-primary {
@@ -198,9 +213,7 @@ body {
 .portfolio-net-item {
   flex-basis: calc((100% - 60px) / 3);
 }
-.container {
-  width: 1200px;
-}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -209,9 +222,7 @@ body {
   width: 1200px;
   margin-left: 215px;
 }
-.section {
-  padding: 94px;
-}
+
 .contacts {
   display: flex;
   flex-direction: row;
