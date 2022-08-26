@@ -15,6 +15,9 @@ body {
   --black-colour: #000000;
   --button-background: #f5f4fa;
 }
+.header {
+  border-bottom: 1px #ececec solid;
+}
 .header-primary {
   color: var(--black-colour);
   font-size: 26px;
@@ -193,6 +196,7 @@ body {
 }
 .portfolio-net {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
   gap: 30px;
@@ -201,7 +205,7 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 .container {
-  max-width: 1200px;
+  width: 1200px;
 }
 .header {
   display: flex;
@@ -209,6 +213,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
+  margin-left: 215px;
 }
 .section {
   padding: 94px;
