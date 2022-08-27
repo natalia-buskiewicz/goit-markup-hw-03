@@ -34,7 +34,8 @@ ul {
   padding-inline: 15px;
 }
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 img {
   display: block;
@@ -45,15 +46,13 @@ img {
 /* header */
 .header {
   border-bottom: 1px #ececec solid;
-  padding-right: 227px;
+  padding-right: 27px;
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
-  margin-left: 215px;
 }
 .logo-header {
   color: var(--black-colour);
@@ -147,10 +146,14 @@ img {
   list-style: none;
   gap: 30px;
 }
+
 .lorem-item {
   width: 270px;
   flex-basis: calc((100% - 30px) / 5);
   margin-top: 94px;
+}
+.lorem-item:not(:last-child) {
+  margin-right: 0px;
 }
 .lorem-list {
   color: var(--dark-grey-header);
@@ -182,6 +185,9 @@ img {
 .our-job-item {
   flex-basis: calc((100% - 60px) / 3);
 }
+.our-job-item:not(:last-child) {
+  margin-right: 0px;
+}
 .picture {
   display: block;
 }
@@ -193,6 +199,9 @@ img {
 }
 .our-team-item {
   flex-basis: calc((100% - 90px) / 4);
+}
+.our-team-item:not(:last-child) {
+  margin-right: 0px;
 }
 .personal-data {
   color: var(--dark-grey-header);
@@ -212,7 +221,9 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--white-color);
@@ -272,6 +283,7 @@ address {
 }
 .portfolio-net-item {
   flex-basis: calc((100% - 60px) / 3);
+  border-bottom: 1px #ececec solid;
 }
 .portfolio-header {
   color: var(--dark-grey-header);
