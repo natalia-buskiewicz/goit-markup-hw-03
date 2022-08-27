@@ -102,7 +102,6 @@ img {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 .main-header {
   color: var(--white-color);
@@ -150,7 +149,6 @@ img {
 .lorem-item {
   width: 270px;
   flex-basis: calc((100% - 30px) / 5);
-  margin-top: 94px;
 }
 .lorem-item:not(:last-child) {
   margin-right: 0px;
@@ -174,6 +172,7 @@ img {
   font-weight: 700;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .our-job {
