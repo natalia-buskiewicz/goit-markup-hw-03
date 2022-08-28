@@ -226,6 +226,8 @@ img {
 }
 .logo-footer {
   color: var(--white-color);
+  font family: Raleway;
+font-style: bold;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
@@ -239,12 +241,16 @@ address {
 }
 .company-location {
   color: var(--white-color);
+  font-family: Roboto;
+  font-style: regular;
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
 }
 .contact-footer {
-  color: var(--white-color);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: regular;
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
