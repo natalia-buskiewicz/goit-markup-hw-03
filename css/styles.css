@@ -8,7 +8,7 @@
 }
 body {
   font-family: "Roboto", "Raleway" sans-serif;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--dark-grey-header);
   margin: 0 auto;
   padding: 0px;
@@ -24,7 +24,9 @@ ul {
   padding: 0;
 }
 .wrapper {
-  width: 100%;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 * {
   box-sizing: border-box;
@@ -46,7 +48,6 @@ img {
 /* header */
 .header {
   border-bottom: 1px #ececec solid;
-  padding-right: 27px;
   padding-top: 24px;
   padding-bottom: 25px;
   display: flex;
@@ -60,6 +61,9 @@ img {
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
+  font-family: Raleway;
+  font-style: bold;
+  padding-right: 93px;
 }
 .highlight {
   color: var(--brand-color);
@@ -68,14 +72,13 @@ img {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 46px;
+  align-items: center;
+  font-family: Roboto;
+  font-style: bold;
 }
-.nav-list-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 .header-primary {
   color: var(--dark-grey-header);
   font-size: 14px;
@@ -89,13 +92,25 @@ img {
   flex-direction: row;
   justify-content: flex-end;
 }
-.contacts-header-item {
+.header-mail {
   color: var(--light-grey);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
   text-decoration: none;
   margin-left: 50px;
+  font-family: Roboto;
+  font-style: medium;
+}
+.header-telephone {
+  color: var(--light-grey);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 50px;
+  font-family: Roboto;
+  font-style: medium;
 }
 /* main */
 .section-dark {
@@ -165,6 +180,7 @@ img {
   line-height: 1.71;
   font-weight: 400;
 }
+
 .header-secondary {
   color: var(--dark-grey-header);
   font-size: 36px;
@@ -172,6 +188,7 @@ img {
   font-weight: 700;
   display: flex;
   justify-content: center;
+  padding: 0px;
   margin-bottom: 50px;
 }
 
@@ -190,6 +207,9 @@ img {
 .picture {
   display: block;
 }
+.grey-section {
+  background-color: #f5f4fa;
+}
 .our-team {
   display: flex;
   flex-wrap: wrap;
@@ -207,12 +227,17 @@ img {
   font-size: 16px;
   line-height: 1.19;
   font-weight: 500;
+  text-align: center;
+  padding-top: 30px;
 }
 .job-position {
   color: var(--light-grey);
   font-size: 16px;
   line-height: 1.19;
   font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  margin: auto 0px;
 }
 /*footer*/
 .footer {
@@ -221,23 +246,23 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo-footer {
   color: var(--white-color);
-  font family: Raleway;
-font-style: bold;
+  font-family: Raleway;
+  font-style: bold;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
   text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 address {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-content: flex-start;
+  align-content: center;
 }
 .company-location {
   color: var(--white-color);
@@ -246,8 +271,10 @@ address {
   font-size: 14px;
   line-height: 1.71;
   font-weight: 400;
+  padding-bottom: 9px;
 }
-.contact-footer {
+
+.footer-mail {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: regular;
@@ -255,6 +282,17 @@ address {
   line-height: 1.71;
   font-weight: 400;
   text-decoration: none;
+  padding-bottom: 9px;
+}
+.footer-telephone {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: regular;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  text-decoration: none;
+  padding-bottom: 60px;
 }
 /*portfolio*/
 .portfolio-menu {
@@ -272,6 +310,8 @@ address {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  font-family: Roboto;
+  font-style: medium;
   line-height: 1.63;
   cursor: pointer;
 }
