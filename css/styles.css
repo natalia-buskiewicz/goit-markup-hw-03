@@ -111,6 +111,7 @@ img {
   font-style: medium;
 }
 /* main */
+
 .section-dark {
   background-color: #2f303a;
   padding-top: 200px;
@@ -310,6 +311,7 @@ address {
 .button-portfolio {
   background-color: var(--button-background);
   border: none;
+  border-radius: 2px;
   color: var(--dark-grey-header);
   text-align: center;
   text-decoration: none;
