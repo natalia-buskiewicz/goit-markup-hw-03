@@ -24,7 +24,7 @@ ul {
   padding: 0;
 }
 .wrapper {
-  width: 1200px;
+  width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,10 +34,12 @@ ul {
 .container {
   width: 1200px;
   padding-inline: 15px;
+  margin: 0 auto;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 img {
   display: block;
