@@ -24,7 +24,7 @@ ul {
   padding: 0;
 }
 .wrapper {
-  width: 1600px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -118,7 +118,7 @@ img {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 1600px;
+  width: 100%;
 }
 .main-header {
   color: var(--white-color);
@@ -214,7 +214,7 @@ img {
 }
 .grey-section {
   background-color: #f5f4fa;
-  width: 1600px;
+  width: 100%;
 }
 .our-team {
   display: flex;
@@ -252,7 +252,8 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  width: 1600px;
+  padding-left: 315px;
+  width: 100%;
 }
 .logo-footer {
   color: var(--white-color);
