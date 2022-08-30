@@ -32,14 +32,14 @@ ul {
   box-sizing: border-box;
 }
 .container {
+  margin: 0 auto;
   width: 1200px;
   padding-inline: 15px;
-  margin: 0 auto;
 }
 .section {
+  margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0 auto;
 }
 img {
   display: block;
